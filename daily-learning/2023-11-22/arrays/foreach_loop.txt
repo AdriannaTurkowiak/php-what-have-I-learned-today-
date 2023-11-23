@@ -1,0 +1,11 @@
+<?php
+
+$array = [
+    "a" => "first",
+    "b" => "second",
+    "third" => "third"
+
+    ];
+    
+    foreach ($array as $index => $value){
+        echo "$index = $value.";}
